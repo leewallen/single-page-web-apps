@@ -41,7 +41,7 @@ function LunchCheckController($scope, $filter) {
     var count = 0;
 
     for (var i = 0; i < lunchItemsArray.length; i++) {
-      if (lunchItemsArray[count]) {
+      if (lunchItemsArray[i]) {
         count++;
       }
     }
